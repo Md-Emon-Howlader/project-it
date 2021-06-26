@@ -274,10 +274,7 @@ nav .menu ul li a.activee{
 .carousel-item img{ 
     width: 100%; 
     height: 95vh; 
-}
-.carousel{
-    
-}
+} 
 .carousel-caption{
     position: absolute;
     top: 50%;
@@ -813,10 +810,7 @@ section #services-section{
 .footer-section .flogo a:hover{
     opacity: .9!important;
     color:#FFC312; 
-}
-.footer-section h3{
-   
-}
+} 
 .footer-section h6{
     font-size: 1.4rem; 
     line-height: 2.5rem;
