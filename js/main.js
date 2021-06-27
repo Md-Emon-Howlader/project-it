@@ -50,6 +50,28 @@ $(document).ready(function(){
 	    }
     });
 
+    // =========================
+
+	$('#body-portfolio .mobile-apps').owlCarousel({
+    	loop:true,
+	    margin:20,
+	    nav:true,
+	    autoplay:false,
+	    autoplayTimeout:4000,
+	    smartSpeed:1350,
+	    responsive:{
+	        0:{
+	            items:3
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+    });
+
  
 
 });
