@@ -399,7 +399,7 @@ nav .menu ul li a.activee{
 #services-section{
     overflow: hidden;
     background:#ddd;
-    padding-bottom: 0;
+    padding-bottom:4rem;
     
 }
 section #services-section{
@@ -512,7 +512,7 @@ section #services-section{
 #portfolio{
     padding-top:6rem ;
     background-color: #ddd;
-    padding-bottom: 0;
+    padding-bottom: 4rem;
 
 } 
 #portfolio svg{
@@ -524,12 +524,12 @@ section #services-section{
 #portfolio .section-title{
     margin-bottom: 5rem;
 }
-#portfolio .single-gallery{
+.single-gallery{
      position: relative;
      overflow: hidden;
      margin-bottom: 2.5rem;
 }
-#portfolio .gallery-overlay{
+.gallery-overlay{
     position: absolute;
     background:#2F024A;
     top: 0;
@@ -542,16 +542,16 @@ section #services-section{
     transform:scale(0);
     transition: .6s;
 }
-#portfolio .single-gallery:hover .gallery-overlay{
+.single-gallery:hover .gallery-overlay{
     transform: scale(1.0);
     cursor: pointer;
 } 
-#portfolio .gallery-overlay a{
+.gallery-overlay a{
     text-decoration: none;
     display: inline-block;
     margin-right: 0.8rem;
 }
-#portfolio .gallery-overlay i{
+.gallery-overlay i{
     color:#2F024A;
     display: inline-block;
     background-color: #fff;
@@ -562,11 +562,19 @@ section #services-section{
     font-size: 1.4rem; 
     border-radius: 50%;
 } 
-#portfolio .gallery-overlay p{
+.gallery-overlay p{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.3rem;
     margin-top: 1rem;
+}
+.view-btn {
+    text-align: center;
+    width: 100%;
+}
+.view-btn a{
+    display: inline-block;
+    text-align: center;
 }
 /*====================End Gallery section====================*/
 
@@ -908,7 +916,7 @@ section #services-section{
     font-size: 16px;
 }
 
-
+/* ========================Portfolio Css ========================== */
 
 
 
