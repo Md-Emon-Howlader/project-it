@@ -130,11 +130,7 @@
 	}
 	.btn-primary{
 		font-size: 1rem;
-	} 
-	#services-section svg,#team-member svg,#portfolio svg,
-	#client-section svg,#blog-section svg,.contact-section svg{
-   	    margin-top: -150px;
-	}
+	}  
 	.single-service h3{
 		font-size: 1.7rem;
 	}

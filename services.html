@@ -15,9 +15,12 @@
 
     <style>
         header{  
-             height: 8rem;
+             height: auto;
             overflow: hidden;
         }   
+        .navvbar .logo{
+            width: 20%;
+        }
         .navvbar{
             background: #2F024A;
         }
@@ -27,11 +30,12 @@
             background-size:cover;
             background-attachment: fixed; 
             background-position: center;
-            padding:7rem 0;
+            padding:11rem 0;
         }
         .title h2{
             color:#fff;
             font-weight:600;
+            padding-top: 3rem;
         }
         .menu-icon{
             background-color:#2F024A;
@@ -60,6 +64,27 @@
             width: 100%;
             margin:0 auto;
         }
+        .single-service{
+            padding: 0;
+            box-shadow: 0 .2rem .7rem #2F024A;
+        }
+        .caption-service{
+            width: 90%;
+            padding: 2rem;
+        }
+        .caption-service h3{
+            margin-top: 3rem;
+        }
+        .single-service img{
+           height:50rem ;
+           width: 100%;
+           border-radius: .5rem;
+           border-bottom-left-radius: 0;
+           border-bottom-right-radius: 0; 
+        }
+        .caption-service p{
+            line-height: 2.5rem;
+        }
     </style>
 </head>
 <body>
@@ -75,22 +100,22 @@
 							<a href="index.html">Home</a>
 						</li>
 						<li>
-							<a href="index.html">About</a>
+							<a href="#services-ds">Machine Learning </a>
 						</li>
 						<li>
-							<a href="index.html">Services</a>
+							<a href="#services-das">Data Science </a>
 						</li>
 						<li>
-							<a href="index.html">Our Team</a>
+							<a href="#services-nlp">Nlp </a>
 						</li>
 						<li>
-							<a href="index.html">Porfolio</a>
+							<a href="#services-wd">Web design</a>
 						</li>
 						<li>
-							<a href="index.html">Blog</a>
+							<a href="#services-wdev">Web Development </a>
 						</li>
 						<li>
-							<a href="index.html">Contact</a>
+							<a href="#services-ma">Mobile Application </a>
 						</li>
 					</ul>
 					<div class="mobile-menu">
@@ -99,12 +124,12 @@
 							<a class="CloseBtn" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times-circle"></i></a>
 							<div class="overlay-content">
 								<a href="#home" onclick="closeNav()">Home</a>
-								 <a href="#message-founder" onclick="closeNav()">About</a>
-								<a href="#services-section" onclick="closeNav()">Services</a>
-								<a href="#team-member" onclick="closeNav()">Our Team</a>
-								<a href="#portfolio" onclick="closeNav()">Porfolio</a>
-								<a href="#blog-section" onclick="closeNav()">Blog</a>
-								<a href="#contact-section" onclick="closeNav()">Contact</a>
+								 <a href="#services-ds" onclick="closeNav()">Machine Learning</a>
+								<a href="#services-das" onclick="closeNav()">Data Science</a>
+								<a href="#services-nlp" onclick="closeNav()">Nlp</a>
+								<a href="#services-wd" onclick="closeNav()">Web design</a>
+								<a href="#services-wdev" onclick="closeNav()">Web Development</a>
+								<a href="#services-ma" onclick="closeNav()">Mobile Application</a>
 							</div>
 						</div>
 					</div>
@@ -134,17 +159,64 @@
    <section id="body-services" style="background-color: #ddd; padding:7rem 0;">
        <div class="container">
             <div class="title mb-5">
-                <h2 style="color:#C70039;margin-top: 20px;">All Servies </h2>
+                <h2 style="color:#C70039; margin-bottom: 7rem;">Our Servies </h2>
             </div>
            <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-12 mb-5" id="services-ds">
                     <div class="single-service">
-                        <i class="fas fa-database"></i>
-                        <h3>Data Science</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        <img class="img-fluid" src="images/single-services/Machine-learning.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Machine Learning </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-12 mb-5" id="services-das">
+                    <div class="single-service">
+                        <img class="img-fluid" src="images/single-services/data-science.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Data Science</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5" id="services-nlp">
+                    <div class="single-service">
+                        <img class="img-fluid" src="images/single-services/wed.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Natural Language Processing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5" id="services-wd">
+                    <div class="single-service">
+                        <img class="img-fluid" src="images/single-services/web-design.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5" id="services-wdev">
+                    <div class="single-service">
+                        <img class="img-fluid" src="images/single-services/web-dev2.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Web development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-5" id="services-ma">
+                    <div class="single-service">
+                        <img class="img-fluid" src="images/single-services/mb2.jpg" alt=""> 
+                        <div class="caption-service">
+                            <h3>Mobile Apps Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!. Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Nisi in velit voluptatem beatae delectus porro deleniti iste, id nihil quos voluptates culpa officiis ab officia quia explicabo nulla, totam, laudantium quam voluptatum voluptate doloribus magnam. Necessitatibus impedit aliquam fugit vel? Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Reprehenderit eum, facere deleniti tenetur quam magnam ut sequi minima? Dolores modi vel quia error minima eius libero, temporibus nobis voluptates itaque omnis repellendus distinctio delectus perspiciatis voluptate expedita architecto, harum, dolor porro, excepturi beatae? Eum, eveniet esse, ab sequi nulla sed.</p><a class=" btn btn-primary read-more" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="single-service">
                         <i class="far fa-chart-bar"></i>
                         <h3>Machine Learning</h3>
@@ -178,7 +250,7 @@
                         <h3>Deep Learning</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Praesentium ipsa numquam, ut exercitationem ipsam quo, veritatis. Saepe libero dolorem quia!</p><a class=" btn btn-primary read-more" href="#">Read More</a>
                     </div>
-                </div> 
+                </div>  -->
             </div>
        </div>
    </section>
