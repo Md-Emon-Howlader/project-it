@@ -9,6 +9,9 @@
 	.navvbar .logo{
 	 	line-height:0rem;
 	 }
+	 .navvbar .logo{  
+	   width: 40%;
+	}
 	 .stickynav { 
 	    padding: .5rem;
 	}
@@ -27,6 +30,9 @@
 	.section-title h2::before{
 	  	left: 38%;
 	  }
+	.single-service{ 
+		height: 33rem;
+	}
 }
 @media (max-width: 768px){
 	.about-content{
@@ -34,6 +40,9 @@
     	margin-bottom: 8rem;
 
 	} 
+	.single-service{ 
+		height: auto;
+	}
 	.section-title {
 	    width: 70%;  
 	}
@@ -178,6 +187,9 @@
 @media (max-width:  300px){ 
 	.carousel-indicators{
     	bottom:2rem;
+	}
+	.navvbar .logo{  
+	   width: 60%;
 	}
 	.section-title h2::before{
 	  	left: 33%; 

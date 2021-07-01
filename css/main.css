@@ -277,7 +277,7 @@ nav .menu ul li a.activee{
 } 
 .carousel-caption{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform:translate(-50%,-50%);
     color:#fff;
@@ -394,6 +394,10 @@ nav .menu ul li a.activee{
     font-weight: 600;
     color:#fff;
 }
+.image-about img{
+    float: right;
+    display: inline-block;
+}
 /*========================================================*/
 /*=============== Start services-section===================*/
 /*========================================================*/
@@ -416,6 +420,7 @@ section #services-section{
     margin-bottom: 6rem; 
 }
 .single-service{
+    height:36rem ;
     padding:2rem;
     background-color: #2F024A;
     color:#fff;
@@ -441,6 +446,7 @@ section #services-section{
 }
 #services-section .single-service .btn-primary{
     font-size: 1.5rem;
+    margin:1rem 0;
 }
 
 /*========================================================*/
@@ -525,13 +531,18 @@ section #services-section{
 }
 #portfolio .section-title{
     margin-bottom: 5rem;
+} 
+.single-gallery img{
+     height: 100%;
+     width: 100%;
 }
 .single-gallery{
-     position: relative;
-     overflow: hidden;
-     margin-bottom: 2.5rem;
-     border-radius: .5rem;
-     box-shadow: 0 .2rem .7rem #2F024A;
+    height: 23rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .7rem #2F024A;
 }
 .gallery-overlay{
     position: absolute;
@@ -609,6 +620,7 @@ section #services-section{
 }
 #client-section  .single-client img{
     border-radius:.5rem;
+    height: 5rem;
 }
 #client-section .owl-nav button.owl-prev span{ 
     left: -3%; 

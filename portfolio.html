@@ -34,7 +34,7 @@
             color:#fff;
             font-weight:600;
             padding-top: 2rem;
-        }
+        } 
         .menu-icon{
             background-color:#2F024A;
             padding: 2rem;
@@ -80,55 +80,78 @@
         .owl-nav button.owl-next span{ 
             right: -3%; 
         }
-        #mobileapp .vbox-close{
+        .vbox-close{
             color:#ddd!important;
             font-size: 35px;
         }
-        #mobileapp .vbox-share{
+        .vbox-share{
             bottom: -1px;
             color: rgb(210, 210, 210);
             fill: rgb(210, 210, 210);
             background-color: rgb(22, 22, 23);
             display: none;
         }
-        #mobileapp .vbox-next{
+        .vbox-next{
             right: 35.8rem;
         }
-        #mobileapp .vbox-prev{
+        .vbox-prev{
             left: 34.3rem;
         }
-        #mobileapp .vbox-next, .vbox-prev{
+        .vbox-next, .vbox-prev{
             top: 50%;
         }
-        #mobileapp .vbox-close{
+        .vbox-close{
             top: 35px!important;
             right: 350px!important;
 
         }
-        #mobileapp .vbox-overlay{
+        .vbox-overlay{
             background: #2F024A none repeat scroll 0% 0%!important;
              
         }
         /*======================================================*/
         /*======================================================*/
-        #mobileapp .vbox-overlay{
+        .vbox-overlay{
             background: rgba(23, 23, 23, 0.85) none repeat scroll 0% 0%;
             opacity: 1;
             width: 50%;
             margin: 0 auto;
         }
-
+        .single-gallery{
+            height: 27rem;
+        }
+        .single-gallery img{
+            height: 100%;
+        }
         /*======================================================*/
         /*======================================================*/
 
+        @media (max-width: 1200px){ 
+            .navvbar .logo{
+                width: 16%;
+            } 
+            .navvbar .logo a{
+                font-size: 2.5rem;
+            }
+        }
+        @media (max-width: 992px){ 
+            .navvbar .logo{
+                width: 60%;
+            }  
+        }
+        @media (max-width: 278px){ 
+            .navvbar .logo a {
+                font-size: 1.5rem;
+            }  
+        }
     </style>
 </head>
 <body>
-    <header id="home">
+    <header id="phome">
 		<nav class="navvbar">
 			<div class="container">
 				<div class="logo">
-					<a href="index.html">Logo</a>
+					<a href="index.html">iTech Hub</a>
 				</div>
 				<div class="menu">
 					<ul>
@@ -136,10 +159,10 @@
                             <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#machinel">Machine Learning </a>
+                            <a href="#machinel">Machine L.</a>
                         </li>
                         <li>
-                            <a href="#datascience">Data Science </a>
+                            <a href="#datascience">Data Science</a>
                         </li>
                         <li>
                             <a href="#nlp">Nlp </a>
@@ -148,10 +171,13 @@
                             <a href="#webdesign">Web design</a>
                         </li>
                         <li>
-                            <a href="#webdev">Web Development </a>
+                            <a href="#webdev">Web Dev.</a>
                         </li>
                         <li>
-                            <a href="#mobileapps">Mobile Application </a>
+                            <a href="#deepl">Deep L </a>
+                        </li>
+                        <li>
+                            <a href="#mobileapps">Mobile App.</a>
                         </li>
                     </ul>
 					<div class="mobile-menu">
@@ -201,9 +227,9 @@
             <div class="row" >  
                 <div class="col-md-4">
                     <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/wd2.jpg">
+                        <img alt="" class="img-fluid" src="images/portfolio/machin1.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="https://dipu-usedcarprices-predict.herokuapp.com/ "><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/machin1.jpg"><i class="fas fa-plus"></i></a> <a target="_blank" href="https://dipu-usedcarprices-predict.herokuapp.com/ "><i class="fas fa-link"></i></a>
                             <p>Used car price predictions </p>
                         </div>
                     </div>
@@ -212,16 +238,16 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/aa.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/aa.jpg"><i class="fas fa-plus"></i></a> <a href="http://banglaolympiad.org/ "><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/aa.jpg"><i class="fas fa-plus"></i></a> <a target="_blank" href="http://banglaolympiad.org/ "><i class="fas fa-link"></i></a>
                             <p>Online Event Application</p>
                         </div>
                     </div>
                 </div> 
                 <div class="col-md-4">
                     <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/web2.jpg">
+                        <img alt="" class="img-fluid" src="images/portfolio/machin1.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/web2.jpg"><i class="fas fa-plus"></i></a> <a href="http://banglaolympiad.org/ "><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="galleryweb" href="images/portfolio/machin1.jpg"><i class="fas fa-plus"></i></a> <a href="http://banglaolympiad.org/ " target="_blank"><i class="fas fa-link"></i></a>
                             <p>Online Event Application </p>
                         </div>
                     </div>
@@ -294,27 +320,27 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/ml.jpg">
+                        <img alt="" class="img-fluid" src="images/portfolio/web1.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/ml.jpg"><i class="fas fa-plus"></i></a> <a href="https://denimfieldcn.com "><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/web1.jpg"><i class="fas fa-plus"></i></a> <a href="https://denimfieldcn.com " target="_blank"><i class="fas fa-link"></i></a>
                             <p>Denim Pant Company</p>
                         </div>
                     </div>
                 </div> 
                 <div class="col-md-4">
                     <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/dl.jpg">
+                        <img alt="" class="img-fluid" src="images/portfolio/web22.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/dl.jpg"><i class="fas fa-plus"></i></a> <a href="https://www.ctcconnections.com/"><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/web22.jpg"><i class="fas fa-plus"></i></a> <a href="https://www.ctcconnections.com/" target="_blank"><i class="fas fa-link"></i></a>
                             <p>Ctc Connection website</p>
                         </div>
                     </div>
                 </div> 
                 <div class="col-md-4">
                     <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/wd2.jpg">
+                        <img alt="" class="img-fluid" src="images/portfolio/web1.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="https://denimfieldcn.com "><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerymachine" href="images/portfolio/web1.jpg"><i class="fas fa-plus"></i></a> <a href="https://denimfieldcn.com " target="_blank"><i class="fas fa-link"></i></a>
                             <p>Denim Pant Company</p>
                         </div>
                     </div>
@@ -328,9 +354,61 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-gallery">
+                        <img alt="" class="img-fluid" src="images/portfolio/webdev1.jpg">
+                        <div class="gallery-overlay">
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/webdev1.jpg"><i class="fas fa-plus"></i></a> <a href="http://www.textpoka.com/" target="_blank"><i class="fas fa-link"></i></a>
+                            <p>Blog site</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-md-4">
+                    <div class="single-gallery">
+                        <img alt="" class="img-fluid" src="images/portfolio/webdev2.jpg">
+                        <div class="gallery-overlay">
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/webdev2.jpg"><i class="fas fa-plus"></i></a> <a href="http://photoeditingprovider.com/" target="_blank"><i class="fas fa-link"></i></a>
+                            <p>Photo editing site</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-md-4">
+                    <div class="single-gallery">
+                        <img alt="" class="img-fluid" src="images/portfolio/webdev3.jpg">
+                        <div class="gallery-overlay">
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/webdev3.jpg"><i class="fas fa-plus"></i></a> <a href="https://ihsbd.net/" target="_blank"><i class="fas fa-link"></i></a>
+                            <p>School ERP system</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-md-4">
+                    <div class="single-gallery">
+                        <img alt="" class="img-fluid" src="images/portfolio/webdev4.jpg">
+                        <div class="gallery-overlay">
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/webdev4.jpg"><i class="fas fa-plus"></i></a> <a href="http://idlbd.com/" target="_blank"><i class="fas fa-link"></i></a>
+                            <p>E-learning site</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-md-4">
+                    <div class="single-gallery">
+                        <img alt="" class="img-fluid" src="images/portfolio/webdev5.jpg">
+                        <div class="gallery-overlay">
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/webdev5.jpg"><i class="fas fa-plus"></i></a> <a href="http://banglaolympiad.org/ " target="_blank"><i class="fas fa-link"></i></a>
+                            <p>Online Event Application</p>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="devider pt-4"></div>
+            </div>
+            <!-- ============================== -->
+            <div class="title mb-5" id="deepl">
+                <h2 style="color:#C70039; padding-top: 7rem;">Deep Learning </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/aa.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/aa.jpg"><i class="fas fa-plus"></i></a> <a href="http://www.textpoka.com/"><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/aa.jpg"><i class="fas fa-plus"></i></a> <a href="http://www.textpoka.com/" target="_blank"><i class="fas fa-link"></i></a>
                             <p>Blog site</p>
                         </div>
                     </div> 
@@ -339,7 +417,7 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/wd2.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="http://photoeditingprovider.com/"><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="http://photoeditingprovider.com/" target="_blank"><i class="fas fa-link"></i></a>
                             <p>Photo editing site</p>
                         </div>
                     </div> 
@@ -348,29 +426,11 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/ml.jpg">
                         <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/ml.jpg"><i class="fas fa-plus"></i></a> <a href="https://ihsbd.net/"><i class="fas fa-link"></i></a>
+                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/ml.jpg"><i class="fas fa-plus"></i></a> <a href="https://ihsbd.net/" target="_blank"><i class="fas fa-link"></i></a>
                             <p>School ERP system</p>
                         </div>
                     </div> 
-                </div> 
-                <div class="col-md-4">
-                    <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/ml.jpg">
-                        <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/ml.jpg"><i class="fas fa-plus"></i></a> <a href="http://idlbd.com/"><i class="fas fa-link"></i></a>
-                            <p>E-learning site</p>
-                        </div>
-                    </div> 
-                </div> 
-                <div class="col-md-4">
-                    <div class="single-gallery">
-                        <img alt="" class="img-fluid" src="images/portfolio/ml.jpg">
-                        <div class="gallery-overlay">
-                            <a class="venobox" data-gall="gallerydeep" href="images/portfolio/ml.jpg"><i class="fas fa-plus"></i></a> <a href="http://banglaolympiad.org/ "><i class="fas fa-link"></i></a>
-                            <p>Online Event Application</p>
-                        </div>
-                    </div> 
-                </div> 
+                </div>   
                 <div class="devider pt-4"></div>
             </div>
             <!-- ============================== -->
@@ -382,7 +442,7 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/wed.jpg">
                         <div class="gallery-overlay">
-                            <a data-toggle="modal" data-target="#exampleModalScrollable" class="venobxx" data-gall="gallerywebdesign" href="images/portfolio/wed.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link"></i></a>
+                            <a class="mapps venobox" data-gall="gallerywebdesign" href="images/portfolio/wed.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link" ></i></a>
                             <p>Mobile Application</p>
                         </div>
                     </div>
@@ -391,7 +451,7 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/wd2.jpg">
                         <div class="gallery-overlay">
-                            <a data-toggle="modal" data-target="#exampleModalScrollable" class="venobxx" data-gall="gallerywebdesign" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link"></i></a>
+                            <a class="mapps venobox" data-gall="gallerywebdesign" href="images/portfolio/wd2.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link"></i></a>
                             <p>Mobile Application</p>
                         </div>
                     </div>
@@ -400,7 +460,7 @@
                     <div class="single-gallery">
                         <img alt="" class="img-fluid" src="images/portfolio/web2.jpg">
                         <div class="gallery-overlay">
-                            <a data-toggle="modal" data-target="#exampleModalScrollable" class="venobx" data-gall="gallerywebdesign" href="images/portfolio/web2.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link"></i></a>
+                            <a class="mapps venobox" data-gall="gallerywebdesign" href="images/portfolio/web2.jpg"><i class="fas fa-plus"></i></a> <a href="#"><i class="fas fa-link"></i></a>
                             <p>Mobile Application</p>
                         </div>
                     </div>
@@ -412,7 +472,7 @@
    <!-- =============================================== --><!-- Gallery -->
  
 <!-- Modal -->
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -423,21 +483,21 @@
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/portfolio/mb2.jpg" alt="">
+        <img class="img-fluid" src="images/portfolio/mb2.jpg" alt=""> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
       </div>
     </div>
   </div>
-</div>
+</div> -->
    <!-- =============================================== -->
 <!-- ======================================== -->
 <footer class="footer-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <h3 class="flogo"><a href="#">logo</a></h3>
+                <h3 class="flogo"><a href="#phome">iTech Hub</a></h3>
                 <h6>A108 Adam Street New York,<br>
                 NY 53502 United States</h6>
                 <p><b>Phone:</b> 019454578751</p>
@@ -463,7 +523,7 @@
     </div>
 </footer><!-- ======================================== -->
 <div class="copyright text-center">
-    <h6>Copyright &copy; 2021 <span>Logo</span> | All Rights Reserved</h6>
+    <h6>Copyright &copy; 2021 <span style="color:#FFC312;">iTech Hub</span> | All Rights Reserved</h6>
 </div>
 
     <!-- link js files -->
