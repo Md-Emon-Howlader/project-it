@@ -130,13 +130,19 @@
         }
         @media (max-width: 778px){ 
             .single-image img{
-                height: auto;
+                height: 300px;
             } 
         }
+         @media (max-width: 368px){
+            .single-image img{
+                height: auto ;
+            } 
+         }
         @media (max-width: 278px){ 
             .navvbar .logo a {
                 font-size: 1.5rem;
             }  
+            
         }
         @media (max-width: 578px){ 
             .all-services{
@@ -185,8 +191,9 @@
 							<a class="CloseBtn" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times-circle"></i></a>
 							<div class="overlay-content">
 								<a href="#home" onclick="closeNav()">Home</a>
-								 <a href="#services-ds" onclick="closeNav()">Machine Learning</a>
-								<a href="#services-das" onclick="closeNav()">Data Science</a>
+								 <a href="#services-ml" onclick="closeNav()">Machine Learning</a>
+								<a href="#services-deepl" onclick="closeNav()">Deep L. </a>
+                                <a href="#services-das" onclick="closeNav()">Data Science</a>
 								<a href="#services-nlp" onclick="closeNav()">Nlp</a>
 								<a href="#services-wd" onclick="closeNav()">Web design</a>
 								<a href="#services-wdev" onclick="closeNav()">Web Development</a>
